@@ -1,0 +1,25 @@
+git config --global user.name "JAufort"
+
+git config --global user.email "julie.aufort@curtin.edu.au"
+
+git config --global core.editor "vim"
+
+git config --list
+
+git init          #will create a directory which is .git
+
+ls -a    #will show the .git directory
+
+git status 
+
+#editer le fichier puis faire
+git add file.txt
+git commit -m "note to yourself about what you changed"  #you have to add and commit everytime
+
+git commit --amend 
+
+git rm file.txt #delete file entirely
+
+git rm --cached file.txt #remove file from tracking
+
+git diff -staged    #compares the staged file to the last commit
